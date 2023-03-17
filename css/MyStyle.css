@@ -1,0 +1,52 @@
+.contenedorHeader{
+    background-color: turquoise;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: solid black 0.5px;
+}
+.contenedorHeader h3{
+    padding-left: 10px;
+    color: black;
+}
+.contenedorHeader h3:hover{
+    color: aqua;
+}
+a{
+    text-decoration: none;
+}
+.contenedorFooter{
+    width: 100%;
+    background-color: turquoise;
+    display: flex;
+    flex-direction: row;
+}
+.boxFooter{
+    border: solid black 0.5px;
+    width: 33.3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    padding: 20px;
+}
+.boxFooter img{
+    width: 30px;
+    height: 30px;
+}
+.boxItems{
+    display: flex;
+    align-items: center;
+}
+.boxItems img{
+    padding-right: 10px;
+}
+.boxItems a{
+    color: black;
+}
+.boxItems a:hover{
+    color: aqua;
+}
+.miniBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
